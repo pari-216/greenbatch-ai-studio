@@ -96,7 +96,7 @@ const LoginPage = () => {
         </div>
 
         {error && (
-          <p className="text-red-300 text-sm mb-4 text-center">{error}</p>
+          <p className="text-destructive text-sm mb-4 text-center">{error}</p>
         )}
 
         {/* Enter */}

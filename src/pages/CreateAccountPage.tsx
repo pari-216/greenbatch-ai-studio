@@ -133,7 +133,7 @@ const CreateAccountPage = () => {
           </button>
         </div>
 
-        {error && <p className="text-red-300 text-sm mb-4 text-center">{error}</p>}
+        {error && <p className="text-destructive text-sm mb-4 text-center">{error}</p>}
 
         <button onClick={handleCreate} className="w-full py-3.5 rounded-xl bg-primary-foreground text-primary font-semibold hover:bg-primary-foreground/90 transition-all">
           Generate Access ID
